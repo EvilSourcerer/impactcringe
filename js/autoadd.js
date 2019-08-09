@@ -49,12 +49,6 @@ fetch('./images.json')
     for (let i = 0; i < res.length; i++) {
       addCringyImage(res[i])
     }
-
-    if (res.length == 0) {
-      document.getElementById(
-        'imagecontainer'
-      ).innerHTML = `<h5 style="text-align: center"><i>For some reason no cringe was found...</i></h5>`
-    }
   })
   .catch(e => {
     document.getElementById('preload').innerHTML =
