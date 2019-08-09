@@ -3443,12 +3443,12 @@ small {
   padding: 24px;
   margin: 0.5rem 0 1rem 0;
   border-radius: 2px;
-  background-color: #fff; }
+  background-color: #28272e; }
 
 .card {
   position: relative;
   margin: 0.5rem 0 1rem 0;
-  background-color: #fff;
+  background-color: #28272e;
   transition: box-shadow .25s;
   border-radius: 2px; }
   .card .card-title {
@@ -3515,7 +3515,7 @@ small {
       bottom: 0;
       width: 100%; }
     .card .card-image .card-title {
-      color: #fff;
+      color: #28272e;
       position: absolute;
       bottom: 0;
       left: 0;
@@ -3549,7 +3549,7 @@ small {
   .card .card-reveal {
     padding: 24px;
     position: absolute;
-    background-color: #fff;
+    background-color: #28272e;
     width: 100%;
     overflow-y: auto;
     left: 0;
