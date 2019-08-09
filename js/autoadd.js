@@ -34,8 +34,8 @@ fetch('https://api.github.com/repos/evilsourcerer/impactcringe/contents/images')
     }
   })
   .catch(e => {
-    document.getElementById('preload').innerHTML =
-      'Unfortunately, an error prevented the cringe from loading...'
+    document.getElementById('preload').innerHTML +=
+      '<h5>Github blocked you 😞</h5>'
     console.log(e)
   })
 
@@ -51,7 +51,7 @@ fetch('./images.json')
     }
   })
   .catch(e => {
-    document.getElementById('preload').innerHTML =
-      'Unfortunately, an error prevented the cringe from loading...'
+    document.getElementById('preload').innerHTML +=
+      '<h5>Service wont load 😞</h5>'
     console.log(e)
   })
