@@ -2,7 +2,7 @@ function addCringyImage (URL) {
   let cringe = document.createElement('img')
   cringe.src = URL
   cringe.className =
-    'materialboxed responsive-img card initialized cringe waves-effect waves-light waves-block hover container'
+    'materialboxed responsive-img card initialized cringe waves-effect waves-light waves-block hover container hoverable'
 
   let cringecontainer = document.createElement('div')
   cringecontainer.className = 'col s12 m4 14'
