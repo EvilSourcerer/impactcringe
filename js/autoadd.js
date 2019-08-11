@@ -2,7 +2,7 @@ function addCringyImage (URL) {
   let cringe = document.createElement('img')
   cringe.src = URL
   cringe.className =
-    'materialboxed responsive-img card initialized cringe waves-effect waves-light waves-block'
+    'materialboxed responsive-img card initialized cringe waves-effect waves-light waves-block hover container'
 
   let cringecontainer = document.createElement('div')
   cringecontainer.className = 'col s12 m4 14'
@@ -30,7 +30,7 @@ fetch('https://api.github.com/repos/evilsourcerer/impactcringe/contents/images')
     if (res.length == 0 || res['documentation_url']) {
       document.getElementById(
         'imagecontainer'
-      ).innerHTML = `<h5 style="text-align: center"><i>For some reason no cringe was found...</i></h5>`
+      ).innerHTML = `<h5 class="center"><i>For some reason no cringe was found...</i></h5>`
     }
   })
   .catch(e => {
